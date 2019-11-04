@@ -1,0 +1,26 @@
+public class Calculator {
+
+    public Calculator() {
+
+    }
+
+    public int add(int num1, int num2) {
+        int sum = num1 + num2;
+                return sum;
+    }
+
+    public int subtract(int i, int i1) {
+        int result = i - i1;
+        return result;
+    }
+
+    public int multiply(int i, int i1) {
+        int result = i * i1;
+        return result;
+    }
+
+    public double divide(double num1, double num2) {
+        double result = num1 / num2;
+                return result;
+    }
+}
