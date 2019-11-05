@@ -22,4 +22,11 @@ public class PrinterTest {
         assertEquals(96, myPrinter.getPaper());
         assertEquals(96, myPrinter.getToner());
     }
+
+    @Test
+    public void canNotPrint() {
+        myPrinter.print(100, 2);
+        assertEquals(100, myPrinter.getPaper());
+        assertEquals(100, myPrinter.getToner());
+    }
 }
